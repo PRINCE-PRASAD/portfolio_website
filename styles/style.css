@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --background-color: #333647;
+}
+
+*{font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+/* navbar */
+.nav_section .navbar-brand{
+    font-size: 22px;
+    
+}
