@@ -16,6 +16,17 @@ h1, h2, h3, h4, h5, h6, p, span, td, a{
     cursor: pointer;
 }
 
+canvas.particles-js-canvas-el{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin: 0;
+}
+
 /* navbar */
 .nav_section .navbar-brand {
     font-size: 22px; 
@@ -122,4 +133,146 @@ color: white;
     background: linear-gradient(45deg, #0ac8f8, #081866);
     z-index: 9;
 } */
+
+@media (max-width: 1200px) and (min-width: 993px){
+    .hero_section .row h1{
+        font-size: 58px;
+    }
+} 
+
+@media (max-width: 993px) and (min-width: 769px){
+    .hero_section .row h1{
+        font-size: 42px;
+    }
+    .hero_section .row h2{
+    font-size: 15px;
+     } 
+     .hero_section .row p{
+         font-size: 11px;
+     }
+     .hero_section .row h3{
+        font-size: 15px;
+    }
+    .hero_section .row button{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 7691px) and (min-width: 500px){
+    .hero_section{
+        margin: 55px 0px;
+    }
+    .hero_section .row h1{
+        font-size: 46px;
+        text-align: center;
+    }
+    .hero_section .row h2{
+    font-size: 15px;
+    text-align: center;
+     } 
+     .hero_section .row p{
+         font-size: 11px;
+         text-align: center;
+     }
+     .hero_section .btn_container{
+         justify-content: center;
+         text-align: center;
+     }
+
+     .hero_section .row h3{
+         font-size: 18px;
+         text-align: center;
+         margin-bottom: 0px;
+     }
+     .hero_section .row h3::after{
+         width: 0px;
+     }
+       
+    .hero_section .btn_container button{
+        width: 100%;
+        height: 43px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero_section img{
+        width: 60%;
+        margin-top: ;
+    }
+}
+
+                            /* About section */
+  .about_section{
+      background-color: #282A39;
+      padding: 170px 0px;
+  }                          
+ .about_section #heading {
+     font-weight: 600;
+     font-size: 40px;
+     letter-spacing: 0.5px;
+     line-height: 57px;
+ }
+ .about_section .lets_talk {
+     color: white;
+     font-weight: 400;
+     margin-top: 14px;
+ }
+ .about_section #info_gmail{
+     font-weight: 600;
+     font-size: 15px;
+     color: var(--pink-color);
+     margin-top: 35px;
+     word-spacing: 6px;
+ }
+ .about_section .contact_info{
+     margin-top: 15px;
+ }
+
+ .about_section .contact_info h5{
+     color: white;
+     font-size: 15px;
+     font-weight: 400;
+     word-spacing: 6px;
+ }
+
+ .about_section .about_me_right_section #txt{
+     font-size: 15px;
+     margin-top: 13px;
+     line-height: 15px;
+     color: var(--secondary-color);
+
+ }
+ .about_section .about_me_right_section hr{
+     margin: 0px;
+     border: 0.5px solid var(--pink-color);
+     width: 6rem;
+ }
+
+ .about_section .about_me_right_section table td{
+     border: none;
+     color: white;
+     font-size: 13px;
+ }
+
+ .about_section .about_me_right_section button{
+     border-radius: 7px;
+     font-size: 15px;
+     color: white;
+     background-color: var(--pink-color);
+     background-color: var(--pink-color);
+     font-family: 'Ubuntu Mono', monospace;
+     margin-top: 10px;
+ }
+ .about_section .about_me_right_section button:hover{
+     animation: swing;
+     animation-duration: 0.5s;
+ }
+
+ @media (max-widh: 993px) and min(min-width: 768px){
+    .about_section .about_me_right_section #txt {
+        font-size: 12px;
+    }
+    .about_section #heading {
+        font-size: 28px !important;
+    }
+ }
 
