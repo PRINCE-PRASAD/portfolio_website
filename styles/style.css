@@ -406,6 +406,7 @@ font-size: 14px;
 /* CONTACT SECTION  */
 .contact_section{
     background: #282A39;
+    padding-top: 170px;
     padding-bottom: 170px;
 }
 .contact_section .heading {
