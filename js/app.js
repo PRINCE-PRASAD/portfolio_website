@@ -16,7 +16,7 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 70,
+        "value": 100,
         // if u need more particles then increase or decrease the no of 70
         "density": {
           "enable": true,
